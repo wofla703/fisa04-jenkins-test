@@ -5,7 +5,7 @@ from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import MetaData
 import datetime
 import os
-
+#test1
 import config
 # flask db init
 # flask db migrate
