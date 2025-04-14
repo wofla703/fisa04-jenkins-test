@@ -4,11 +4,11 @@ from dotenv import load_dotenv
 # .env 불러오기
 load_dotenv()
 
-myDBid = os.environ.get('DBid')
-myDBpw = os.environ.get('DBpassword')
-mySecretKey = os.environ.get('FLASK_SECRET_KEY')
-myDB = os.environ.get('DB')
-mySchema = os.environ.get('SCHEMA')
+myDBid = os.environ.get('DB_USER')
+myDBpw = os.environ.get('DB_PASSWORD')
+mySecretKey = os.environ.get('SECRET_KEY')
+myDB = os.environ.get('DB_HOST')
+mySchema = os.environ.get('DB_NAME')
 
 # db를 저장할 폴더/파일이름 
 BASE_DIR = os.path.dirname(__file__)
